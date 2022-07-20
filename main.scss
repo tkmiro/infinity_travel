@@ -1,0 +1,25 @@
+@use "utility";
+
+.wrapper {
+  max-width: 1500px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+
+    &__item {
+      margin-left: 20px;
+    }
+  }
+}
